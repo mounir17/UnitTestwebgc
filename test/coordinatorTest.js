@@ -1,2 +1,2 @@
 var assert = require('chai').assert;
-var coord = requiere('../src/controllers/Coordinator');
+//var coord = require('../src/controllers/Coordinator');
