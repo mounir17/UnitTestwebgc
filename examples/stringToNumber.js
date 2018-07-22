@@ -6,3 +6,5 @@ module.exports =  function(s) {
     for (var i = 0; i < s.length; i++) num += s.charCodeAt(i)
     return num
   }
+
+  
