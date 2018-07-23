@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 var stringToNumber = require('../examples/stringToNumber');
-
+var sim = require('../src/utils/ConfigurationObject').gossipAlgos.vicinity1.similarityFunction;
 /* the folowing test concerns the main function in the module 'src/confObjs'*/
 
 describe('StringToNumber', function(){
@@ -11,3 +11,15 @@ describe('StringToNumber', function(){
         assert.equal(stringToNumber(hello),'532');
     });
 });
+
+/**
+ * the folowing test concerns
+ */
+var coord = require('../src/controllers/Coordinator');
+
+/*describe('Coordinator', function(){
+
+    it('Coordinator well instanciate !', function(){
+
+    });
+});*/
