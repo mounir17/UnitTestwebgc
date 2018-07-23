@@ -5,6 +5,7 @@
 //     it('first should be Hola mundo', function(){
 //         assert.equal(first(), 'Hola mundo');
 //     });
+<<<<<<< HEAD
 // });
 
 
@@ -47,3 +48,6 @@
 // --------------------------------
 
   
+=======
+// });
+>>>>>>> 66261c5c15acbdfc510c61c28f5ce6c155a92d26
