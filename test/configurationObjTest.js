@@ -1,27 +1,30 @@
 var assert = require('chai').assert;
 var stringToNumber = require('../examples/stringToNumber');
-<<<<<<< HEAD
 var sim = require('../src/utils/ConfigurationObject').gossipAlgos.vicinity1.similarityFunction;
 /* the folowing test concerns the main function in the module 'src/confObjs'*/
-=======
-
-/* the folowing test concerns the main function of the module 'src/confObjs'*/
->>>>>>> 66261c5c15acbdfc510c61c28f5ce6c155a92d26
 
 describe('StringToNumber', function(){
     var hello = "hello";
 
-    it('StringToNumber should convert<hello> to <532>', function(){
+    it('StringToNumber should convert aqui<hello> to <532>', function(){
         var hello = "hello";
         assert.equal(stringToNumber(hello),'532');
     });
-<<<<<<< HEAD
+});
+
+describe('Similarity',function(){
+    var hello = "hello";
+    var world = "wor";
+    it('', function(){
+        throws(coordinator(hello,world), "Parameter should be an object", "Exception thrown if result is >1");
+        //assert.equal(coordinator(hello,world),'');
+    });
 });
 
 /**
  * the folowing test concerns
  */
-var coord = require('../src/controllers/Coordinator');
+//var coord = require('../src/controllers/Coordinator');
 
 /*describe('Coordinator', function(){
 
@@ -29,6 +32,3 @@ var coord = require('../src/controllers/Coordinator');
 
     });
 });*/
-=======
-});
->>>>>>> 66261c5c15acbdfc510c61c28f5ce6c155a92d26

@@ -1,6 +1,14 @@
+
 var assert = require('chai').assert;
-<<<<<<< HEAD
-//var coord = require('../src/controllers/Coordinator');
-=======
-//var coord = requiere('../src/controllers/Coordinator');
->>>>>>> 66261c5c15acbdfc510c61c28f5ce6c155a92d26
+var stringToNumber = require('../examples/stringToNumber');
+var sim = require('../src/utils/ConfigurationObject').gossipAlgos.vicinity1.similarityFunction;
+/* the folowing test concerns the main function in the module 'src/confObjs'*/
+
+describe('StringToNumber', function(){
+    var hello = "hello";
+
+    it('StringToNumber should convert AHI<hello> to <532>', function(){
+        var hello = "hello";
+        assert.equal(stringToNumber(hello),'532');
+    });
+});
