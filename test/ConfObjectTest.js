@@ -1,7 +1,7 @@
 
 var assert = require('chai').assert;
 var stringToNumber = require('../examples/stringToNumber');
-var sim = require('../src/utils/ConfigurationObject').gossipAlgos.vicinity1.similarityFunction;
+var sim = require('../examples/Similarity');
 
 
 /* the folowing test concerns the main method
@@ -12,12 +12,15 @@ var sim = require('../src/utils/ConfigurationObject').gossipAlgos.vicinity1.simi
 describe('Similarity', function(){
     var hello = "hello";
     var wor = "wor";
+    var num = sim(hello,wor);
     var coord = function(hello, wor){
-        var num = sim(a,b);
+       
+        console.log('le nombre est : ', );
         return num
     }
-    // Example "Math.floor(0.5)=0"
-    var cero = Math.floor(coord);
+    var cero = Math.floor(num);
+    
+       
     it('Should be equal to 0', function(){
         assert.equal(cero, 0);
         
