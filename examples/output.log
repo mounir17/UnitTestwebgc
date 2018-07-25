@@ -1,0 +1,26 @@
+
+> testmocha@1.1.0 test /home/mounir/workSpace/papelera/unitTests
+> mocha
+
+
+
+  Similarity
+    1) Should be equal to 0
+    ✓ StringToNumber should convert<hello> to <532>
+
+  StringToNumber
+    ✓ StringToNumber should convert aqui<hello> to <532>
+
+  First
+    ✓ first should be Hola mundo
+
+
+  3 passing (8ms)
+  1 failing
+
+  1) Similarity Should be equal to 0:
+     AssertionError: expected NaN to equal 0
+      at Context.<anonymous> (test/ConfObjectTest.js:22:16)
+
+
+
