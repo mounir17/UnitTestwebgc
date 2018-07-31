@@ -1,6 +1,6 @@
 ## UnitTestwebgc
 
-Ce projet sert a faire des tests unitaires sur le projet webgc (https://github.com/raziel-carvajal/WebGC/) 
+Ce projet sert a faire des tests unitaires sur le projet [webgc](https://github.com/raziel-carvajal/WebGC/) 
 
 A l'aide des frameworks [mocha](https://mochajs.org/) et [chai](http://www.chaijs.com/)
 
