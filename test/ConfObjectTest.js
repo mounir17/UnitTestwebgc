@@ -4,7 +4,7 @@ var stringToNumber = require('../examples/stringToNumber');
 var sim = require('../examples/Similarity');
 
 
-/* the folowing test concerns the main method
+/* the following test concerns the main method
 * in the module 'src/confObjs':
 * Similarity should return a number < = 1
 */

@@ -1,7 +1,7 @@
 var assert = require('chai').assert;
 var stringToNumber = require('../examples/stringToNumber');
 
-/* the folowing test concerns the function StringToNumber*/
+/* the following test concerns the function StringToNumber*/
 
 describe('StringToNumber', function(){
     var hello = "hello";
