@@ -27,7 +27,7 @@
     "hat": "~0.0.3",
     "inherits": "~2.0.1",
     "its": "~1.0.2",
-    "jquery": "~2.1.4",
+    "jquery": "~3.5.0",
     "simple-peer": "~5.11.2",
     "websocket": "~1.0.19",
     "webworker-threads": "~0.7.11",
