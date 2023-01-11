@@ -22,7 +22,7 @@
   "dependencies": {
     "browserify-fs": "~1.0.0",
     "cytoscape": "~2.2.9",
-    "debug": "~2.2.0",
+    "debug": "~3.1.0",
     "events": "~1.0.2",
     "hat": "~0.0.3",
     "inherits": "~2.0.1",
